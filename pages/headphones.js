@@ -2,6 +2,7 @@ import styles from '../styles/Headphones.module.css'
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
+import Galeri from "./components/Galeri";
 
 const Headphones = () => {
   return (
@@ -17,10 +18,12 @@ const Headphones = () => {
             <p className={styles.desc}>The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines
               your premium headphone experience by reproducing the balanced depth and precision of studio-quality
               sound.</p>
-            <p className={styles.allPhotos}>ALL PHOTOS</p>
+            <a className={styles.allPhotos}>ALL PHOTOS</a>
           </div>
         </div>
-        <div className={styles.galeri}></div>
+        <div className={styles.galeri}>
+          <Galeri />
+        </div>
       </div>
       <Banner/>
       <Footer/>
