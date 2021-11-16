@@ -1,0 +1,31 @@
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.tulisan {
+    outline: 2px solid red;
+    box-sizing: border-box;
+    width: 445px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin: 0;
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.text {
+    margin: 0;
+    font-size: 15px;
+
+}
+
+.img {
+    width: 600px;
+    border-radius: 7px;
+}

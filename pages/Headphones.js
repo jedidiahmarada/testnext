@@ -1,6 +1,6 @@
 //our-domain.com/news
 
-function Newspage(props) {
+function Headphones(props) {
   return (
     <div>
       <h1>The News Page</h1>
@@ -8,4 +8,4 @@ function Newspage(props) {
   );
 }
 
-export default Newspage;
+export default Headphones;
