@@ -1,0 +1,78 @@
+.footer {
+    height: 300px;
+    background: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.kiri {
+    /*margin: 0 50px;*/
+    /*outline: 2px solid yellow;*/
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 530px;
+}
+
+.logo {
+    color: white;
+    margin: 0 0 15px 0;
+    padding-top: 50px;
+    font-size: 25px;
+    border-top: 3px solid #D87D4A;
+    width: 90px;
+}
+
+.text {
+    font-size: 15px;
+    color: white;
+    opacity: 0.5;
+}
+
+.cr {
+    color: white;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    opacity: 0.5;
+}
+
+.kanan {
+    /*outline: 2px solid orange;*/
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 530px;
+}
+
+.listNavbar {
+    /*outline: 2px solid red;*/
+    display: flex;
+    padding-top: 60px;
+    padding-left: 0;
+    margin: 0;
+    width: auto;
+    justify-content: space-between;
+}
+
+.listNav {
+    list-style: none;
+    color: white;
+    font-size: 15px;
+}
+
+.socmed {
+    /*outline: 2px solid blue;*/
+    padding: 90px 0;
+    display: flex;
+    justify-content: right;
+}
+
+.icon {
+    width: 22px;
+    margin: 0;
+    margin-left: 20px;
+}

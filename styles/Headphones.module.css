@@ -1,0 +1,66 @@
+.isi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    padding: 92.5px 0;
+    background: black;
+    margin: 0;
+    color: white;
+    text-align: center;
+    border-top: 1px solid #1a1a1a;
+}
+
+.atas {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.imgXX99 {
+    width: 530px;
+    margin-right: 100px;
+    border-radius: 7px;
+}
+
+.kanan {
+    /*outline: 2px solid red;*/
+    box-sizing: border-box;
+    width: 445px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new {
+    color: #D87D4A;
+    letter-spacing: .4rem;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.desc {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.allPhotos {
+    background: #D87D4A;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
